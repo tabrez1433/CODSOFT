@@ -1,0 +1,119 @@
+/* TaskLayout.css */
+
+.tasks-layout {
+  padding: 20px;
+  max-width: 100%;
+  min-height: 100vh;
+  background-image: url("../assets/task-main.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.task-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.task-table {
+  margin: 0;
+  width: 100%;
+  background-color: white;
+}
+
+button.btn.btn-custom {
+  transform: translateY(0);
+  box-shadow: 0 5px 10px rgba(0, 91, 187, 0.2);
+  background: #ff8d33;
+}
+
+.left-aligned {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  width: auto;
+}
+.filter-dropdown {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  width: auto; /* Ensure it only takes the necessary width */
+  min-width: 150px; /* Set a minimum width to keep it consistent */
+  max-width: 200px; /* Optionally, set a maximum width if needed */
+  display: inline-block;
+}
+
+.filter-dropdown,
+.btn-custom {
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  min-width: 150px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination .disabled a {
+  color: #6c757d;
+  pointer-events: none;
+}
+
+.pagination .active a {
+  background-color: #ff8d33;
+  color: white;
+}
+
+.pagination a {
+  color: #ff8d33;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #ff8d33;
+}
+
+.pagination a:hover {
+  background-color: #fff;
+  color: #ff8d33;
+}
+
+.btn-primary,
+.btn-success,
+.btn-danger {
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: #ffffff;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}

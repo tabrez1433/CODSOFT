@@ -1,0 +1,6 @@
+/* Custom styles for error messages */
+.error-message {
+  color: #dc3545; /* Bootstrap's default danger color */
+  font-size: 0.875rem; /* Slightly smaller font size */
+  margin-top: 0.25rem; /* Small margin at the top */
+}

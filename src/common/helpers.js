@@ -1,0 +1,1 @@
+export const regex = /^[A-Za-z\s]+$/;
